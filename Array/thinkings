@@ -1,0 +1,6 @@
+1.binary search
+1.1正序无重复数组，寻找target的插入位置，如果有就返回目前index，可为0或者len(nums) 35
+
+做二分查找，如果查到到，返回当前index，如果没查到，返回left,因为最后一次循环中left=right+1，或者left=初始值0
+
+1.2正序有重复数组，找target的左右边界
